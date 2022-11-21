@@ -3,7 +3,7 @@ from . import centralize
 from . import optimal
 from . import random
 from . import static
-from . import qmix
+from . import tinyqmix
 from . import qmix_lstm
 from . import dql
 from . import wrr
@@ -20,8 +20,8 @@ def create_controller(env, args):
         return static.Controller(env, args)
     elif args.algorithm == 'optimal':
         return optimal.Controller(env, args)
-    elif args.algorithm == 'qmix':
-        return qmix.Controller(env, args)
+    elif args.algorithm == 'tinyqmix':
+        return tinyqmix.Controller(env, args)
     elif args.algorithm == 'qmix_lstm':
         return qmix_lstm.Controller(env, args)
     elif args.algorithm == 'dql':
