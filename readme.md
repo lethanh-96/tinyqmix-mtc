@@ -16,6 +16,6 @@ We compare it with different static, tabular Q-learning, and deep Q-learning pol
 
 Over 5 minutes of testing trace, TinyQMIX has the lowest delay, approaching the empirical lower-bound WFLB.
 
-This is the repository for the paper "TinyQMIX: Distributed Access Control for mMTC via Multi-agent Reinforcement Learning" - presented at VTC Fall 2022.
+This is the repository for the paper ["TinyQMIX: Distributed Access Control for mMTC via Multi-agent Reinforcement Learning"](https://arxiv.org/abs/2211.11692) - presented at VTC Fall 2022.
 
 Contact: lethanh@nii.ac.jp
